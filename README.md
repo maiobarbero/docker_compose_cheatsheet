@@ -1,4 +1,4 @@
-# docker_compose_cheatsheet
+# Docker-Compose cheat sheet
 A cheet sheat to create you docker-compose.yml
 
 #cheatsheet #docker #docker-compose
