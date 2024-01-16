@@ -13,9 +13,9 @@ web:
   build: . # local path or repo
   # alternative to use a folder with more than one Dockerfile:
   build:
-    context: ./dir #path to Dockerfile
+    context: ./dir # path to Dockerfile
     dockerfile: Dockerfile.dev #name of the file
-    
+    target: dev # specify the target in a multi-stage build
   # build from image
   image: ubuntu
   image: ubuntu:14.04
