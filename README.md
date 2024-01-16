@@ -94,6 +94,12 @@ volumes:
   - /var/lib/mysql # anonimous volume
   - ./host_path:/docker_container_path # bind mount
 ```
+```yaml
+volumes:
+  - type: bind
+    source: ./host_path
+    target: /docker_container_path
+```
 
 ## Restart
 
