@@ -20,6 +20,14 @@ web:
   image: ubuntu
   image: ubuntu:14.04
 ```
+## Init
+Run the service as PID 1. Set this option to true to enable this feature for the service.
+```yaml
+services:
+  web:
+    image: alpine:latest
+    init: true
+```
 
 ## Expose port
 
