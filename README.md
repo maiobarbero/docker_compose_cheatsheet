@@ -3,7 +3,7 @@ A cheet sheat to create you docker-compose.yml
 
 #cheatsheet #docker #docker-compose
 
-`version: '3'`
+`version: '3.8'`
 
 ## Build the image
 
