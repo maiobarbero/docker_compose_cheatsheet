@@ -99,6 +99,9 @@ volumes:
   - type: bind
     source: ./host_path
     target: /docker_container_path
+  - type: volume
+    # no source. Override the previous volumes for a specific path 
+    target: /node_modules
 ```
 
 ## Restart
