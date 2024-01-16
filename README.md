@@ -10,7 +10,7 @@ A cheet sheat to create you docker-compose.yml
 ```yaml
 web:
   # build from Dockerfile
-  build: . # local path or repo
+  build: .
   # alternative to use a folder with more than one Dockerfile:
   build:
     context: ./dir # path to Dockerfile
